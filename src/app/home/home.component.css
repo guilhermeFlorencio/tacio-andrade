@@ -1,0 +1,52 @@
+.p-profile{
+    /* background-image: url(https://drive.google.com/file/d/14nJJR4jB9E6pPRUeTsThqJgkpppjiJsJ/view?usp=sharing); */
+    background-image: url(/assets/img/tacio.png);
+    width: 100%;
+    height: 495px;
+    background-color: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    position:relative;
+	top:15.2%;
+}
+.p-rgt-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.p-tag{
+    background: #91355e;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+.p-desc{
+    color: #acacac;
+    width: 80%;
+}
+form .form-group{
+   box-shadow: 1px 2px 12px 1px #0003;
+   width: 80%;
+}
+
+form .form-control{
+    min-height: 60px;
+    padding: 10px 20px;
+    border-radius: 0;
+    border: 0;
+    outline: none;
+    box-shadow: none;
+    background-color: #fff;
+    width: calc(100% - 141px);
+}
+.btn{
+    width: 100%;
+    min-height: 60px;
+    border: 0;
+    box-shadow: 0px -1px 5px black;
+    border-radius: 0;
+    padding: 10px 35px;
+    font-weight: 500;
+    color: #ffffff;
+    background: #91355e;
+}
